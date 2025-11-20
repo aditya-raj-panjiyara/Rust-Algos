@@ -17,6 +17,7 @@ fn main() {
     run_problem(2, "Even Fibonacci Numbers", problem_002::solve);
     run_problem(3, "Largest prime Factor", problem_003::solve);
     run_problem(4, "Largest Palindrome Product", problem_004::solve);
+    run_problem(5, "Smallest Multiple", problem_005::solve);
     run_problem(11, "Largest Product in a Grid", problem_011::solve);
     run_problem(12, "Highly Divisible Triangular Number", problem_012::solve);
     run_problem(13, "Large Sum", problem_013::solve);
