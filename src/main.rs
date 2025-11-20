@@ -20,7 +20,8 @@ fn main() {
     run_problem(5, "Smallest Multiple", problem_005::solve);
     run_problem(6, "Sum Square Difference", problem_006::solve);
     run_problem(7, "10001st prime", problem_007::solve);
-    run_problem(11, "Largest Product in a Grid", problem_011::solve);
+    run_problem(8, "Largest Product in a Grid", problem_008::solve);
+    run_problem(9, "Special Pythagorean triplet", problem_009::solve);
     run_problem(12, "Highly Divisible Triangular Number", problem_012::solve);
     run_problem(13, "Large Sum", problem_013::solve);
 }

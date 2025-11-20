@@ -1,4 +1,4 @@
-// Problem 11: Largest Product in a Grid
+// Problem 8: Largest Product in a Grid
 // Find the greatest product of four adjacent numbers in the same direction
 
 const GRID_DATA: &str = "
