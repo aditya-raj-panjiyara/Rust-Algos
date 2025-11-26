@@ -6,4 +6,5 @@ edition = "2024"
 [dependencies]
 big-int = "7.0.0"
 num-bigint = "0.4.6"
+num-traits = "0.2.19"
 
