@@ -29,4 +29,6 @@ fn main() {
     run_problem(12, "Highly Divisible Triangular Number", problem_012::solve);
     run_problem(13, "Large Sum", problem_013::solve);
     run_problem(14, "Longest Collatz Sequence", problem_014::solve);
+    run_problem(15, "Lattice Paths", problem_015::solve);
+    run_problem(17, "Power digit sum", problem_017::solve);
 }
