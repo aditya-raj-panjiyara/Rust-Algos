@@ -2,6 +2,8 @@ use std::time::Instant;
 
 mod problems;
 use problems::*;
+pub mod utils;
+
 
 fn run_problem<T: std::fmt::Display>(num: u32, name: &str, solver: impl FnOnce() -> T) {
     println!("\n=== Problem {}: {} ===", num, name);
@@ -21,4 +23,5 @@ fn main() {
     run_problem(11, "Largest Product in a Grid", problem_011::solve);
     run_problem(12, "Highly Divisible Triangular Number", problem_012::solve);
     run_problem(13, "Large Sum", problem_013::solve);
+    run_problem(15, "Lattice Path", problem_015::solve);
 }
