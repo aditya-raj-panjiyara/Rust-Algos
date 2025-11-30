@@ -30,5 +30,7 @@ fn main() {
     run_problem(13, "Large Sum", problem_013::solve);
     run_problem(14, "Longest Collatz Sequence", problem_014::solve);
     run_problem(15, "Lattice Paths", problem_015::solve);
-    run_problem(17, "Power digit sum", problem_017::solve);
+    run_problem(16, "Power Digit Sum", problem_016::solve);
+    run_problem(17, "Number Letter Counts", problem_017::solve);
+    run_problem(17, "Maximum Path Sum I", problem_018::solve);
 }

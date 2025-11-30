@@ -6,7 +6,6 @@ pub fn solve() -> i32 {
     // println!("{}", number_to_words(115));
     for i in 1..=1000 {
         let word = number_to_words(i);
-        // Using len() is fine because these are all ASCII characters
         total_letters += word.len() as i32;
     }
     total_letters
